@@ -15,8 +15,8 @@ Este repositório contém um script de reverse shell em Python que permite a exe
 
 1. **Clone o repositório:**
     ```bash
-   git clone https://github.com/seu_usuario/seu_repositorio.git
-   cd seu_repositorio
+   git clone https://github.com/Miguel-Vasco7/reverse_shell.py.git
+   cd reverse_shell.py
    ```
 
 2. **Modifique o script:**
@@ -24,7 +24,7 @@ Este repositório contém um script de reverse shell em Python que permite a exe
 
 3. **Inicie o listener:**
    ```bash
-   nc -lvp 222
+   nc -lvp 222s
    ```
 
 4. **Execute o script:**
