@@ -29,7 +29,7 @@ Este repositório contém um script de reverse shell em Python que permite a exe
 
 4. **Execute o script:**
    ```bash
-   python reverse_shell.py
+   python3 reverse_shell.py
    ```
 
 ## Aviso
