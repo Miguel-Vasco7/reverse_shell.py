@@ -2,7 +2,7 @@
 
 ## Autor
 
-**Miguel** **Vasco** - [seu_github_link](https://github.com/Miguel-Vasco7)
+**Miguel** **Vasco** 
 
 Este repositório contém um script de reverse shell em Python que permite a execução remota de comandos em uma máquina alvo.
 
