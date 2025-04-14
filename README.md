@@ -24,7 +24,7 @@ Este repositório contém um script de reverse shell em Python que permite a exe
 
 3. **Inicie o listener:**
    ```bash
-   nc -lvp 2222
+   nc -lvp 222
    ```
 
 4. **Execute o script:**
