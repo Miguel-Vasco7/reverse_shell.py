@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/AVD4rUO.png" alt="Reverse Shell Hacker Art" width="600"/>
+  <img src="https://cdn.invicti.com/app/uploads/2022/06/28121045/understanding-reverse-shells-768x403.webp" width="600"/>
 </p>
 
 <h1 align="center">🐍 Reverse Shell em Python</h1>
