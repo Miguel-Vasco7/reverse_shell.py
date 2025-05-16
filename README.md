@@ -1,41 +1,66 @@
-# Reverse Shell em Python
+<p align="center">
+  <img src="https://i.imgur.com/AVD4rUO.png" alt="Reverse Shell Hacker Art" width="600"/>
+</p>
 
-## Autor
+<h1 align="center">🐍 Reverse Shell em Python</h1>
+<p align="center">
+  Ferramenta simples e eficaz para execução remota de comandos via conexão reversa.
+</p>
 
-**Miguel** **Vasco** 
+---
 
-Este repositório contém um script de reverse shell em Python que permite a execução remota de comandos em uma máquina alvo.
+## 👤 Autor
 
-## Funcionalidades
+**Miguel Vasco**
 
-- Conexão reversa para executar comandos remotamente.
-- Simples e fácil de usar.
+Desenvolvedor entusiasta de segurança ofensiva, automações e exploração de sistemas.
 
-## Como Usar
+---
+
+## ⚙️ Funcionalidades
+
+- Estabelece uma **conexão reversa** com o host atacante.
+- Permite a **execução remota de comandos**.
+- Código limpo, direto e de fácil customização.
+
+---
+
+## 🚀 Como Usar
 
 1. **Clone o repositório:**
     ```bash
-   git clone https://github.com/Miguel-Vasco7/reverse_shell.py.git
-   cd reverse_shell.py
-   ```
+    git clone https://github.com/Miguel-Vasco7/reverse_shell.py.git
+    cd reverse_shell.py
+    ```
 
-2. **Modifique o script:**
-   - Altere `<ip_do_listener>` para o seu endereço IP no script.
+2. **Configure o IP alvo:**
+   - Edite o arquivo `reverse_shell.py` e substitua:
+     ```python
+     HOST = "<ip_do_listener>"
+     PORT = 222
+     ```
 
-3. **Inicie o listener:**
-   ```bash
-   nc -lvp 222 
-   ```
+3. **Inicie o listener (máquina atacante):**
+    ```bash
+    nc -lvp 222
+    ```
 
-4. **Execute o script:**
-   ```bash
-   python3 reverse_shell.py
-   ```
+4. **Execute o script na máquina alvo:**
+    ```bash
+    python3 reverse_shell.py
+    ```
 
-## Aviso
+---
 
-Use esta ferramenta apenas em ambientes controlados e com permissão explícita. O uso indevido pode ser ilegal.
+## ⚠️ Aviso Legal
 
-## Contribuições
+> Esta ferramenta foi desenvolvida **exclusivamente para fins educacionais e testes autorizados**. O uso não autorizado em sistemas alheios é **ilegal** e **antiético**. O autor **não se responsabiliza** por qualquer uso indevido.
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+---
+
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas!  
+Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+
